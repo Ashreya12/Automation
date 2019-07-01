@@ -1,7 +1,7 @@
 @echo off
 cd "Path to repos folder" 
 set /p repoName=Name of repository:
-python gitrepo.py %repoName%
+python py_new_repo.py %repoName%
 mkdir %repoName%
 cd %repoName%
 git init
